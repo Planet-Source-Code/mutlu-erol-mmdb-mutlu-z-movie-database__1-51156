@@ -1,0 +1,4073 @@
+[Root]
+Most Recent Package=2003 12  januari
+Most Recent Deploy=Folder Deployment 1
+
+[Package|Standard Setup Package 2|Mutlu'z Movie database v1.0]
+Icon1="Mutlu'z Movie DataBase v1.0.exe"
+Title1=Mutlu'z Movie database v1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\Maffia\Bureaublad\voegfilm3\setup bestanden
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\system32\dao360.dll=
+C:\WINDOWS\system32\msdxm.ocx=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 2|Files Added]
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Mutlu'z Movie DataBase v1.6.exe=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+D:\aa VB opslag\visualbasichackprogrammauitleg\vb examples\picturedbase\voegfilm3\Mutlu'z Movie DataBase v1.0.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Mutlu'z Movie DataBase v1.0.exe=$(AppPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Mutlu'z Movie DataBase v1.6.exe=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\aa VB opslag\visualbasichackprogrammauitleg\vb examples\picturedbase\voegfilm3\Mutlu'z Movie DataBase v1.0.exe=Yes
+C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Mutlu'z Movie DataBase v1.0.exe=No
+C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Mutlu'z Movie DataBase v1.6.exe=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database v1.6
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=c:\Documents and Settings\Maffia\Bureaublad\voegfilm3\setup bestanden
+ProjectFolder=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\Maffia\Bureaublad\voegfilm3\setup bestanden\setup.exe
+File2=c:\Documents and Settings\Maffia\Bureaublad\voegfilm3\setup bestanden\Setup.Lst
+File3=c:\Documents and Settings\Maffia\Bureaublad\voegfilm3\setup bestanden\Mutlu'z Movie DataBase v1.6.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Mutlu'z Movie database v1.6
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Mutlu'z Movie database v1.6]
+Icon1="Mutlu'z Movie DataBase v1.0.exe"
+Title1=Mutlu'z Movie database v1.6
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Package
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+
+[Package|Standard Setup Package 3|Files Released]
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 3|Files Added]
+
+[Package|Standard Setup Package 3|Files Removed]
+
+[Package|Standard Setup Package 3|Files In Project]
+C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Mutlu'z Movie DataBase.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Mutlu'z Movie DataBase.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Mutlu'z Movie DataBase.exe=No
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 3|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase.exe"
+Title1=Mutlu'z Movie database v1.6
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Package
+ProjectFolder=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3
+ServerSideCab=
+File1=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Package\setup.exe
+File2=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Package\Setup.Lst
+File3=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Package\Mutlu'z Movie DataBase.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Package
+
+[Package|Standard Setup Package 4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 4|Files Found]
+
+[Package|Standard Setup Package 4|Files Released]
+
+[Package|Standard Setup Package 4|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+
+[Package|Standard Setup Package 4|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 4|Files Added]
+
+[Package|Standard Setup Package 4|Files Removed]
+
+[Package|Standard Setup Package 4|Files In Project]
+C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Mutlu'z Movie DataBase v1.6.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 4|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 4|Install Locations]
+C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Mutlu'z Movie DataBase v1.6.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 4|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Mutlu'z Movie DataBase v1.6.exe=No
+
+[Package|Standard Setup Package 4|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|Standard Setup Package 4|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 4|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase v1.6.exe"
+Title1=Mutlu'z Movie database v1.6
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 4|Package]
+PackageFolder=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Package
+ProjectFolder=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3
+ServerSideCab=
+File1=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Package\setup.exe
+File2=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Package\Setup.Lst
+File3=C:\Documents and Settings\Maffia\Bureaublad\voegfilm3\Package\Mutlu'z Movie DataBase v1.6.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 5|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\voegfilm3\Package (2)
+
+[Package|Standard Setup Package 5|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 5|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 5|Files Found]
+
+[Package|Standard Setup Package 5|Files Released]
+
+[Package|Standard Setup Package 5|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+
+[Package|Standard Setup Package 5|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 5|Files Added]
+
+[Package|Standard Setup Package 5|Files Removed]
+
+[Package|Standard Setup Package 5|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.8.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 5|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 5|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 5|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.8.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 5|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v1.8.exe=No
+
+[Package|Standard Setup Package 5|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|Standard Setup Package 5|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 5|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase v1.8.exe"
+Title1=Mutlu'z Movie database
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 5|Package]
+PackageFolder=D:\voegfilm3\Package (2)
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=D:\voegfilm3\Package (2)\setup.exe
+File2=D:\voegfilm3\Package (2)\Setup.Lst
+File3=D:\voegfilm3\Package (2)\Mutlu'z Movie DataBase v1.8.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 6|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\voegfilm3\Package (2)
+
+[Package|Standard Setup Package 6|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 6|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 6|Files Found]
+
+[Package|Standard Setup Package 6|Files Released]
+
+[Package|Standard Setup Package 6|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+
+[Package|Standard Setup Package 6|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 6|Files Added]
+
+[Package|Standard Setup Package 6|Files Removed]
+
+[Package|Standard Setup Package 6|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.9.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 6|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 6|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 6|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.9.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 6|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v1.9.exe=No
+
+[Package|Standard Setup Package 6|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|Standard Setup Package 6|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 6|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase v1.9.exe"
+Title1=Mutlu'z Movie database v1.9
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 6|Package]
+PackageFolder=D:\voegfilm3\Package (2)
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=D:\voegfilm3\Package (2)\setup.exe
+File2=D:\voegfilm3\Package (2)\Setup.Lst
+File3=D:\voegfilm3\Package (2)\Mutlu'z Movie DataBase v1.9.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 7|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\voegfilm3\Package (2)
+
+[Package|Standard Setup Package 7|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 7|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 7|Files Found]
+
+[Package|Standard Setup Package 7|Files Released]
+
+[Package|Standard Setup Package 7|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+
+[Package|Standard Setup Package 7|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 7|Files Added]
+
+[Package|Standard Setup Package 7|Files Removed]
+
+[Package|Standard Setup Package 7|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.9.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 7|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 7|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 7|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.9.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 7|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v1.9.exe=No
+
+[Package|Standard Setup Package 7|Distribution]
+Type=multi
+Size=720 KB
+Title=Mutlu'z Movie database
+
+[Package|Standard Setup Package 7|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 7|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase v1.9.exe"
+Title1=Mutlu'z Movie database v1.9
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 7|Package]
+PackageFolder=D:\voegfilm3\Package (2)
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=D:\voegfilm3\Package (2)\setup.exe
+File2=D:\voegfilm3\Package (2)\Setup.Lst
+File3=D:\voegfilm3\Package (2)\Mutlu'1.CAB
+File4=D:\voegfilm3\Package (2)\Mutlu'2.CAB
+File5=D:\voegfilm3\Package (2)\Mutlu'3.CAB
+File6=D:\voegfilm3\Package (2)\Mutlu'4.CAB
+File7=D:\voegfilm3\Package (2)\Mutlu'5.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 8|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\voegfilm3\Package (2)
+
+[Package|Standard Setup Package 8|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 8|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 8|Files Found]
+
+[Package|Standard Setup Package 8|Files Released]
+
+[Package|Standard Setup Package 8|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+
+[Package|Standard Setup Package 8|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 8|Files Added]
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+
+[Package|Standard Setup Package 8|Files Removed]
+
+[Package|Standard Setup Package 8|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.9.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+
+[Package|Standard Setup Package 8|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 8|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 8|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.9.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+
+[Package|Standard Setup Package 8|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v1.9.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+
+[Package|Standard Setup Package 8|Distribution]
+Type=multi
+Size=720 KB
+Title=Mutlu'z Movie DataBase
+
+[Package|Standard Setup Package 8|IconGroups]
+Group0=Mutlu'z Movie DataBase
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 8|Mutlu'z Movie DataBase]
+Icon1="Mutlu'z Movie DataBase v1.9.exe"
+Title1=Mutlu'z Movie DataBase v1.9
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2="Mutlu'z Capture iT.exe"
+Title2=Mutlu'z Capture iT
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|Standard Setup Package 8|Package]
+PackageFolder=D:\voegfilm3\Package (2)
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=D:\voegfilm3\Package (2)\setup.exe
+File2=D:\voegfilm3\Package (2)\Setup.Lst
+File3=D:\voegfilm3\Package (2)\Mutlu'1.CAB
+File4=D:\voegfilm3\Package (2)\Mutlu'2.CAB
+File5=D:\voegfilm3\Package (2)\Mutlu'3.CAB
+File6=D:\voegfilm3\Package (2)\Mutlu'4.CAB
+File7=D:\voegfilm3\Package (2)\Mutlu'5.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 9|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\voegfilm3\Package
+
+[Package|Standard Setup Package 9|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 9|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 9|Files Found]
+
+[Package|Standard Setup Package 9|Files Released]
+
+[Package|Standard Setup Package 9|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\MMDB internet browser v1.exe=
+
+[Package|Standard Setup Package 9|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 9|Files Added]
+d:\voegfilm3\mutlu'z capture it.exe=
+d:\voegfilm3\mmdb internet browser v1.exe=
+
+[Package|Standard Setup Package 9|Files Removed]
+
+[Package|Standard Setup Package 9|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.1.exe=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+D:\voegfilm3\MMDB internet browser v1.exe=Yes
+
+[Package|Standard Setup Package 9|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 9|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 9|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v2.0.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Movie DataBase v2.1.exe=$(AppPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\voegfilm3\MMDB internet browser v1.exe=$(AppPath)
+
+[Package|Standard Setup Package 9|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.0.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\Mutlu'z Movie DataBase v2.1.exe=No
+D:\voegfilm3\MMDB internet browser v1.exe=No
+
+[Package|Standard Setup Package 9|Distribution]
+Type=multi
+Size=720 KB
+Title=Mutlu'z Movie database
+
+[Package|Standard Setup Package 9|Package]
+PackageFolder=D:\voegfilm3\Package
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=D:\voegfilm3\Package\setup.exe
+File2=D:\voegfilm3\Package\Setup.Lst
+File3=D:\voegfilm3\Package\Mutlu'1.CAB
+File4=D:\voegfilm3\Package\Mutlu'2.CAB
+File5=D:\voegfilm3\Package\Mutlu'3.CAB
+File6=D:\voegfilm3\Package\Mutlu'4.CAB
+File7=D:\voegfilm3\Package\Mutlu'5.CAB
+File8=D:\voegfilm3\Package\Mutlu'6.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 9|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 9|Mutlu'z Movie database]
+Icon1="Mutlu'z Capture iT.exe"
+Title1=Mutlu'z Capture iT
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2="MMDB internet browser v1.exe"
+Title2=MMDB internet browser v1.0
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3="Mutlu'z Movie DataBase v2.1.exe"
+Title3=Mutlu'z Movie database v2.1
+StartIn3=$(AppPath)
+Key3=Icon1
+
+
+[Package|Standard Setup Package 10|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\voegfilm3\MMDB v2.1
+
+[Package|Standard Setup Package 10|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 10|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 10|Files Found]
+
+[Package|Standard Setup Package 10|Files Released]
+mmdb internet browser v1.exe=
+
+[Package|Standard Setup Package 10|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\MMDB internet browser v1.exe=
+D:\voegfilm3\mmdb v1.0.exe=
+D:\voegfilm3\MMDB internet browser v1.0.exe=
+
+[Package|Standard Setup Package 10|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 10|Files Added]
+d:\voegfilm3\mutlu'z capture it.exe=
+mmdb internet browser v1.exe=
+D:\voegfilm3\mmdb v1.0.exe=
+D:\voegfilm3\MMDB internet browser v1.0.exe=
+D:\voegfilm3\mutlu.mdb=
+
+[Package|Standard Setup Package 10|Files Removed]
+
+[Package|Standard Setup Package 10|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.1.exe=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+D:\voegfilm3\mmdb v1.0.exe=Yes
+D:\voegfilm3\MMDB internet browser v1.0.exe=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+
+[Package|Standard Setup Package 10|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 10|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 10|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v2.0.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Movie DataBase v2.1.exe=$(AppPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\voegfilm3\MMDB internet browser v1.exe=$(AppPath)
+D:\voegfilm3\mmdb v1.0.exe=$(AppPath)
+D:\voegfilm3\MMDB internet browser v1.0.exe=$(AppPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+
+[Package|Standard Setup Package 10|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.0.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\Mutlu'z Movie DataBase v2.1.exe=No
+D:\voegfilm3\MMDB internet browser v1.exe=No
+D:\voegfilm3\mmdb v1.0.exe=No
+D:\voegfilm3\MMDB internet browser v1.0.exe=No
+D:\voegfilm3\mutlu.mdb=No
+
+[Package|Standard Setup Package 10|Distribution]
+Type=multi
+Size=720 KB
+Title=Mutlu'z Movie database "Combo PacK"
+
+[Package|Standard Setup Package 10|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 10|Mutlu'z Movie database]
+Icon1="Mutlu'z Capture iT.exe"
+Title1=Mutlu'z Capture iT
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2="MMDB internet browser v1.0.exe"
+Title2=MMDB internet browser v1.0
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3="Mutlu'z Movie DataBase v2.1.exe"
+Title3=Mutlu'z Movie database v2.1
+StartIn3=$(AppPath)
+Key3=Icon1
+Icon4="mmdb v1.0.exe"
+Title4=MMDB netwerk tool
+StartIn4=$(AppPath)
+Key4=Icon5
+Icon5=mutlu.mdb
+Title5=Print filmlijst
+StartIn5=$(AppPath)
+Key5=Icon16
+
+[Package|Standard Setup Package 10|Package]
+PackageFolder=D:\voegfilm3\MMDB v2.1
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=D:\voegfilm3\MMDB v2.1\setup.exe
+File2=D:\voegfilm3\MMDB v2.1\Setup.Lst
+File3=D:\voegfilm3\MMDB v2.1\Mutlu'1.CAB
+File4=D:\voegfilm3\MMDB v2.1\Mutlu'2.CAB
+File5=D:\voegfilm3\MMDB v2.1\Mutlu'3.CAB
+File6=D:\voegfilm3\MMDB v2.1\Mutlu'4.CAB
+File7=D:\voegfilm3\MMDB v2.1\Mutlu'5.CAB
+File8=D:\voegfilm3\MMDB v2.1\Mutlu'6.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Deploy|Folder Deployment 1|Root]
+Package=Standard Setup Package 10
+Handler=PDWizard.FolderDplySubWiz
+Folder=D:\voegfilm3\jj
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\voegfilm3\MMDB v2.1xxxxx
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+mmdb internet browser v1.exe=
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\MMDB internet browser v1.exe=
+D:\voegfilm3\mmdb v1.0.exe=
+D:\voegfilm3\MMDB internet browser v1.0.exe=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Dep File 1|Files Added]
+d:\voegfilm3\mutlu'z capture it.exe=
+d:\voegfilm3\mmdb v1.0.exe=
+d:\voegfilm3\mmdb internet browser v1.0.exe=
+d:\voegfilm3\mutlu.mdb=
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.1.exe=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+D:\voegfilm3\mmdb v1.0.exe=Yes
+D:\voegfilm3\MMDB internet browser v1.0.exe=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v2.0.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Movie DataBase v2.1.exe=$(AppPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\voegfilm3\MMDB internet browser v1.exe=$(AppPath)
+D:\voegfilm3\mmdb v1.0.exe=$(AppPath)
+D:\voegfilm3\MMDB internet browser v1.0.exe=$(AppPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.0.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\Mutlu'z Movie DataBase v2.1.exe=No
+D:\voegfilm3\MMDB internet browser v1.exe=No
+D:\voegfilm3\mmdb v1.0.exe=No
+D:\voegfilm3\MMDB internet browser v1.0.exe=No
+D:\voegfilm3\mutlu.mdb=No
+
+[Package|Dep File 1|Distribution]
+Type=multi
+Size=720 KB
+Title=Mutlu'z Movie database "Combo PacK"
+
+[Package|Dep File 1|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|Mutlu'z Movie database]
+Icon1="Mutlu'z Capture iT.exe"
+Title1=Mutlu'z Capture iT
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2="MMDB internet browser v1.0.exe"
+Title2=MMDB internet browser v1.0
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3="Mutlu'z Movie DataBase v2.1.exe"
+Title3=Mutlu'z Movie database v2.1
+StartIn3=$(AppPath)
+Key3=Icon1
+Icon4="mmdb v1.0.exe"
+Title4=MMDB netwerk tool
+StartIn4=$(AppPath)
+Key4=Icon5
+Icon5=mutlu.mdb
+Title5=Print filmlijst
+StartIn5=$(AppPath)
+Key5=Icon16
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Mutlu'z Movie DataBase v2.1.CAB
+DepCabRun=Mutlu'z Movie DataBase v2.1.INF
+DepCabURL=members.home.nl/m.erol
+
+[Package|Dep File 1|Package]
+PackageFolder=D:\voegfilm3\MMDB v2.1xxxxx
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=D:\voegfilm3\MMDB v2.1xxxxx\Mutlu'z Movie DataBase v2.1.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|versie 2.2 combopack 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\voegfilm3\MMDB v2.2
+
+[Package|versie 2.2 combopack 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|versie 2.2 combopack 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|versie 2.2 combopack 2|Files Found]
+
+[Package|versie 2.2 combopack 2|Files Released]
+
+[Package|versie 2.2 combopack 2|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\MMDB server.exe=
+D:\voegfilm3\mmdb v1.0.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\MMDB internet browser v1.0.exe=
+
+[Package|versie 2.2 combopack 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|versie 2.2 combopack 2|Files Added]
+D:\voegfilm3\MMDB server.exe=
+D:\voegfilm3\mmdb v1.0.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\MMDB internet browser v1.0.exe=
+
+[Package|versie 2.2 combopack 2|Files Removed]
+d:\voegfilm3\mmdb server.exe=
+
+[Package|versie 2.2 combopack 2|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\MMDB server.exe=No
+D:\voegfilm3\mmdb v1.0.exe=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\MMDB internet browser v1.0.exe=Yes
+
+[Package|versie 2.2 combopack 2|Configure Registry Files]
+Applicable=No
+
+[Package|versie 2.2 combopack 2|Configure Remote Servers]
+Applicable=No
+
+[Package|versie 2.2 combopack 2|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\mmdb v1.0.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\MMDB internet browser v1.0.exe=$(AppPath)
+
+[Package|versie 2.2 combopack 2|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=No
+D:\voegfilm3\mmdb v1.0.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\MMDB internet browser v1.0.exe=No
+
+[Package|versie 2.2 combopack 2|Distribution]
+Type=single
+Size=1.44 MB
+Title=Mutlu'z Movie database "Combo PacK" v2
+
+[Package|versie 2.2 combopack 2|IconGroups]
+Group0=Mutlu'z Movie database "Combo PacK" v2
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|versie 2.2 combopack 2|Mutlu'z Movie database "Combo PacK" v2]
+Icon1="Mutlu'z Movie DataBase v2.2.exe"
+Title1=Mutlu'z Movie database v2.2
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2="Mutlu'z Capture iT.exe"
+Title2=Mutlu'z Capture iT
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3="mmdb v1.0.exe"
+Title3=mmdb v1.0
+StartIn3=$(AppPath)
+Key3=Icon4
+Icon4="MMDB internet browser v1.0.exe"
+Title4=MMDB internet browser v1.0
+StartIn4=$(AppPath)
+Key4=Icon5
+
+[Package|versie 2.2 combopack 2|Package]
+PackageFolder=D:\voegfilm3\MMDB v2.2
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=D:\voegfilm3\MMDB v2.2\setup.exe
+File2=D:\voegfilm3\MMDB v2.2\Setup.Lst
+File3=D:\voegfilm3\MMDB v2.2\Mutlu'z Movie DataBase v2.2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|30 mei 20.41|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.2ZZ
+
+[Package|30 mei 20.41|Configure DAO ISAMs]
+Applicable=No
+
+[Package|30 mei 20.41|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|30 mei 20.41|Files Found]
+
+[Package|30 mei 20.41|Files Released]
+
+[Package|30 mei 20.41|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\MMDB server.exe=
+D:\voegfilm3\mmdb v1.0.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\MMDB internet browser v1.0.exe=
+
+[Package|30 mei 20.41|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|30 mei 20.41|Files Added]
+d:\voegfilm3\mmdb server.exe=
+d:\voegfilm3\mmdb v1.0.exe=
+d:\voegfilm3\mutlu'z capture it.exe=
+d:\voegfilm3\mmdb internet browser v1.0.exe=
+
+[Package|30 mei 20.41|Files Removed]
+d:\voegfilm3\mmdb server.exe=
+
+[Package|30 mei 20.41|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\MMDB server.exe=No
+D:\voegfilm3\mmdb v1.0.exe=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\MMDB internet browser v1.0.exe=Yes
+
+[Package|30 mei 20.41|Configure Registry Files]
+Applicable=No
+
+[Package|30 mei 20.41|Configure Remote Servers]
+Applicable=No
+
+[Package|30 mei 20.41|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\mmdb v1.0.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\MMDB internet browser v1.0.exe=$(AppPath)
+
+[Package|30 mei 20.41|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=No
+D:\voegfilm3\mmdb v1.0.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\MMDB internet browser v1.0.exe=No
+
+[Package|30 mei 20.41|Distribution]
+Type=multi
+Size=720 KB
+Title=Mutlu'z Movie database "Combo PacK" v2
+
+[Package|30 mei 20.41|IconGroups]
+Group0=Mutlu'z Movie database Combo PacK v2
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|30 mei 20.41|Mutlu'z Movie database Combo PacK v2]
+Icon1="Mutlu'z Movie DataBase v2.2.exe"
+Title1=Mutlu'z Movie database v2.2
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2="Mutlu'z Capture iT.exe"
+Title2=Mutlu'z Capture iT
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3="mmdb v1.0.exe"
+Title3=mmdb v1.0
+StartIn3=$(AppPath)
+Key3=Icon4
+Icon4="MMDB internet browser v1.0.exe"
+Title4=MMDB internet browser v1.0
+StartIn4=$(AppPath)
+Key4=Icon5
+
+[Package|30 mei 20.41|Package]
+PackageFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.2ZZ
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.2ZZ\setup.exe
+File2=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.2ZZ\Setup.Lst
+File3=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.2ZZ\Mutlu'1.CAB
+File4=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.2ZZ\Mutlu'2.CAB
+File5=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.2ZZ\Mutlu'3.CAB
+File6=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.2ZZ\Mutlu'4.CAB
+File7=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.2ZZ\Mutlu'5.CAB
+File8=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.2ZZ\Mutlu'6.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|1 juni 23.54|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.3
+
+[Package|1 juni 23.54|Configure DAO ISAMs]
+Applicable=No
+
+[Package|1 juni 23.54|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|1 juni 23.54|Files Found]
+
+[Package|1 juni 23.54|Files Released]
+
+[Package|1 juni 23.54|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\MMDB server.exe=
+D:\voegfilm3\mmdb v1.0.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\MMDB internet browser v1.0.exe=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|1 juni 23.54|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|1 juni 23.54|Files Added]
+d:\voegfilm3\mmdb server.exe=
+d:\voegfilm3\mmdb v1.0.exe=
+d:\voegfilm3\mutlu'z capture it.exe=
+d:\voegfilm3\mmdb internet browser v1.0.exe=
+
+[Package|1 juni 23.54|Files Removed]
+d:\voegfilm3\mmdb server.exe=
+
+[Package|1 juni 23.54|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\MMDB server.exe=No
+D:\voegfilm3\mmdb v1.0.exe=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\MMDB internet browser v1.0.exe=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.3.exe=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|1 juni 23.54|Configure Registry Files]
+Applicable=No
+
+[Package|1 juni 23.54|Configure Remote Servers]
+Applicable=No
+
+[Package|1 juni 23.54|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\mmdb v1.0.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\MMDB internet browser v1.0.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Movie DataBase v2.3.exe=$(AppPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+
+[Package|1 juni 23.54|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=No
+D:\voegfilm3\mmdb v1.0.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\MMDB internet browser v1.0.exe=No
+D:\voegfilm3\Mutlu'z Movie DataBase v2.3.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|1 juni 23.54|Distribution]
+Type=single
+Size=720 KB
+Title=Mutlu'z Movie database Combo PacK  v2.3
+
+[Package|1 juni 23.54|IconGroups]
+Group0=Mutlu'z Movie database Combo PacK v2
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|1 juni 23.54|Mutlu'z Movie database Combo PacK v2]
+Icon1="Mutlu'z Capture iT.exe"
+Title1=Mutlu'z Capture iT
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2="mmdb v1.0.exe"
+Title2=mmdb v1.0
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3="MMDB internet browser v1.0.exe"
+Title3=MMDB internet browser v1.0
+StartIn3=$(AppPath)
+Key3=Icon5
+Icon4="Mutlu'z Movie DataBase v2.3.exe"
+Title4=Mutlu'z Movie database v2.3
+StartIn4=$(AppPath)
+Key4=Icon1
+
+[Package|1 juni 23.54|Package]
+PackageFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.3
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.3\setup.exe
+File2=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.3\Setup.Lst
+File3=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.3\Mutlu'z Movie DataBase v2.3.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|13 juni 22.13|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.6
+
+[Package|13 juni 22.13|Configure DAO ISAMs]
+Applicable=No
+
+[Package|13 juni 22.13|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|13 juni 22.13|Files Found]
+
+[Package|13 juni 22.13|Files Released]
+
+[Package|13 juni 22.13|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\MMDB server.exe=
+D:\voegfilm3\mmdb v1.0.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\MMDB internet browser v1.0.exe=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|13 juni 22.13|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\MSWINSCK.OCX=
+
+[Package|13 juni 22.13|Files Added]
+d:\voegfilm3\mmdb server.exe=
+d:\voegfilm3\mmdb v1.0.exe=
+d:\voegfilm3\mutlu'z capture it.exe=
+d:\voegfilm3\mmdb internet browser v1.0.exe=
+D:\voegfilm3\mutlu.mdb=
+
+[Package|13 juni 22.13|Files Removed]
+d:\voegfilm3\mmdb server.exe=
+
+[Package|13 juni 22.13|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\MMDB server.exe=No
+D:\voegfilm3\mmdb v1.0.exe=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\MMDB internet browser v1.0.exe=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.6.exe=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+
+[Package|13 juni 22.13|Configure Registry Files]
+Applicable=No
+
+[Package|13 juni 22.13|Configure Remote Servers]
+Applicable=No
+
+[Package|13 juni 22.13|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\mmdb v1.0.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\MMDB internet browser v1.0.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Movie DataBase v2.3.exe=$(AppPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\voegfilm3\Mutlu'z Movie DataBase v2.6.exe=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+
+[Package|13 juni 22.13|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=No
+D:\voegfilm3\mmdb v1.0.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\MMDB internet browser v1.0.exe=No
+D:\voegfilm3\Mutlu'z Movie DataBase v2.3.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\Mutlu'z Movie DataBase v2.6.exe=No
+D:\voegfilm3\mutlu.mdb=No
+
+[Package|13 juni 22.13|Distribution]
+Type=single
+Size=720 KB
+Title=Mutlu'z Movie database Combo PacK  v2.6
+
+[Package|13 juni 22.13|IconGroups]
+Group0=Mutlu'z Movie database Combo PacK v2
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|13 juni 22.13|Mutlu'z Movie database Combo PacK v2]
+Icon1="Mutlu'z Capture iT.exe"
+Title1=Mutlu'z Capture iT
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2="mmdb v1.0.exe"
+Title2=mmdb v1.0
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3="MMDB internet browser v1.0.exe"
+Title3=MMDB internet browser v1.0
+StartIn3=$(AppPath)
+Key3=Icon5
+Icon4="Mutlu'z Movie DataBase v2.6.exe"
+Title4=Mutlu'z Movie database v2.6
+StartIn4=$(AppPath)
+Key4=Icon1
+Icon5=mutlu.mdb
+Title5=Filmlijst
+StartIn5=$(AppPath)
+Key5=Icon6
+
+[Package|13 juni 22.13|Package]
+PackageFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.6
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.6\setup.exe
+File2=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.6\Setup.Lst
+File3=c:\Documents and Settings\Maffia\Bureaublad\mmdb 2.6\Mutlu'z Movie DataBase v2.6.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|21 juni 1.23|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.0x
+
+[Package|21 juni 1.23|Configure DAO ISAMs]
+Applicable=No
+
+[Package|21 juni 1.23|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|21 juni 1.23|Files Found]
+
+[Package|21 juni 1.23|Files Released]
+
+[Package|21 juni 1.23|Missing Dependency Information]
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\MMDB server.exe=
+D:\voegfilm3\mmdb v1.0.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\MMDB internet browser v1.0.exe=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|21 juni 1.23|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\MSWINSCK.OCX=
+
+[Package|21 juni 1.23|Files Added]
+d:\voegfilm3\mmdb server.exe=
+d:\voegfilm3\mmdb v1.0.exe=
+d:\voegfilm3\mutlu'z capture it.exe=
+d:\voegfilm3\mmdb internet browser v1.0.exe=
+d:\voegfilm3\mutlu.mdb=
+
+[Package|21 juni 1.23|Files Removed]
+d:\voegfilm3\mmdb server.exe=
+d:\voegfilm3\mmdb internet browser v1.0.exe=
+d:\voegfilm3\mmdb v1.0.exe=
+
+[Package|21 juni 1.23|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\MMDB server.exe=No
+D:\voegfilm3\mmdb v1.0.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\MMDB internet browser v1.0.exe=No
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v3.0.exe=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+
+[Package|21 juni 1.23|Configure Registry Files]
+Applicable=No
+
+[Package|21 juni 1.23|Configure Remote Servers]
+Applicable=No
+
+[Package|21 juni 1.23|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\mmdb v1.0.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\MMDB internet browser v1.0.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Movie DataBase v2.3.exe=$(AppPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\voegfilm3\Mutlu'z Movie DataBase v2.6.exe=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+D:\voegfilm3\Mutlu'z Movie DataBase v3.0.exe=$(AppPath)
+
+[Package|21 juni 1.23|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v2.2.exe=No
+D:\voegfilm3\mmdb v1.0.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\MMDB internet browser v1.0.exe=No
+D:\voegfilm3\Mutlu'z Movie DataBase v2.3.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\Mutlu'z Movie DataBase v2.6.exe=No
+D:\voegfilm3\mutlu.mdb=No
+D:\voegfilm3\Mutlu'z Movie DataBase v3.0.exe=No
+
+[Package|21 juni 1.23|Distribution]
+Type=single
+Size=720 KB
+Title=Mutlu'z Movie database Combo PacK
+
+[Package|21 juni 1.23|IconGroups]
+Group0=Mutlu'z Movie database Combo PacK v2
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|21 juni 1.23|Mutlu'z Movie database Combo PacK v2]
+Icon1="Mutlu'z Capture iT.exe"
+Title1=Mutlu'z Capture iT
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2=mutlu.mdb
+Title2=Filmlijst
+StartIn2=$(AppPath)
+Key2=Icon6
+Icon3="Mutlu'z Movie DataBase v3.0.exe"
+Title3=Mutlu'z Movie database v3.0
+StartIn3=$(AppPath)
+Key3=Icon1
+
+[Package|21 juni 1.23|Package]
+PackageFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.0x
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.0x\setup.exe
+File2=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.0x\Setup.Lst
+File3=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.0x\Mutlu'z Movie DataBase v3.0.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|23 juni 18.41|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.2
+
+[Package|23 juni 18.41|Configure DAO ISAMs]
+Applicable=No
+
+[Package|23 juni 18.41|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|23 juni 18.41|Files Found]
+
+[Package|23 juni 18.41|Files Released]
+User.DLL=
+
+[Package|23 juni 18.41|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+
+[Package|23 juni 18.41|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|23 juni 18.41|Files Added]
+D:\voegfilm3\mutlu.mdb=
+
+[Package|23 juni 18.41|Files Removed]
+
+[Package|23 juni 18.41|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v3.2.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+
+[Package|23 juni 18.41|Configure Registry Files]
+Applicable=No
+
+[Package|23 juni 18.41|Configure Remote Servers]
+Applicable=No
+
+[Package|23 juni 18.41|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v3.2.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+
+[Package|23 juni 18.41|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v3.2.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\mutlu.mdb=No
+
+[Package|23 juni 18.41|Distribution]
+Type=single
+Size=1.44 MB
+Title=Mutlu'z Movie database
+
+[Package|23 juni 18.41|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|23 juni 18.41|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase v3.2.exe"
+Title1=Mutlu'z Movie database v3.2
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=mutlu.mdb
+Title2=Filmlijst
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|23 juni 18.41|Package]
+PackageFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.2
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.2\setup.exe
+File2=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.2\Setup.Lst
+File3=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.2\Mutlu'z Movie DataBase v3.2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|MMDB v3.4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.4
+
+[Package|MMDB v3.4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MMDB v3.4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MMDB v3.4|Files Found]
+
+[Package|MMDB v3.4|Files Released]
+User.DLL=
+
+[Package|MMDB v3.4|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\mmdbtooltje.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+
+[Package|MMDB v3.4|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|MMDB v3.4|Files Added]
+D:\voegfilm3\backup.mdb=
+D:\voegfilm3\mutlu.mdb=
+D:\voegfilm3\mmdbtooltje.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+
+[Package|MMDB v3.4|Files Removed]
+
+[Package|MMDB v3.4|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v3.4.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\backup.mdb=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+D:\voegfilm3\mmdbtooltje.exe=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+
+[Package|MMDB v3.4|Configure Registry Files]
+Applicable=No
+
+[Package|MMDB v3.4|Configure Remote Servers]
+Applicable=No
+
+[Package|MMDB v3.4|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v3.4.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\backup.mdb=$(AppPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+D:\voegfilm3\mmdbtooltje.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+
+[Package|MMDB v3.4|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v3.4.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\backup.mdb=No
+D:\voegfilm3\mutlu.mdb=No
+D:\voegfilm3\mmdbtooltje.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+
+[Package|MMDB v3.4|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|MMDB v3.4|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|MMDB v3.4|Mutlu'z Movie database]
+Icon1="Mutlu'z Capture iT.exe"
+Title1=Capture iT
+StartIn1=$(AppPath)
+Key1=Icon4
+Icon2=mmdbtooltje.exe
+Title2=MMDB Tooltje
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3="Mutlu'z Movie DataBase v3.4.exe"
+Title3=Mutlu'z Movie database v3.4
+StartIn3=$(AppPath)
+Key3=Icon1
+
+[Package|MMDB v3.4|Package]
+PackageFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.4
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.4\setup.exe
+File2=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.4\Setup.Lst
+File3=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.4\Mutlu'z Movie DataBase v3.4.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|MMDB v3.6|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.6
+
+[Package|MMDB v3.6|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MMDB v3.6|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MMDB v3.6|Files Found]
+
+[Package|MMDB v3.6|Files Released]
+User.DLL=
+
+[Package|MMDB v3.6|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\mmdbtooltje.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+
+[Package|MMDB v3.6|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|MMDB v3.6|Files Added]
+d:\voegfilm3\backup.mdb=
+d:\voegfilm3\mutlu.mdb=
+d:\voegfilm3\mmdbtooltje.exe=
+d:\voegfilm3\mutlu'z capture it.exe=
+
+[Package|MMDB v3.6|Files Removed]
+
+[Package|MMDB v3.6|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\backup.mdb=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+D:\voegfilm3\mmdbtooltje.exe=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v3.6.exe=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+
+[Package|MMDB v3.6|Configure Registry Files]
+Applicable=No
+
+[Package|MMDB v3.6|Configure Remote Servers]
+Applicable=No
+
+[Package|MMDB v3.6|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v3.4.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\backup.mdb=$(AppPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+D:\voegfilm3\mmdbtooltje.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Movie DataBase v3.6.exe=$(AppPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+
+[Package|MMDB v3.6|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v3.4.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\backup.mdb=No
+D:\voegfilm3\mutlu.mdb=No
+D:\voegfilm3\mmdbtooltje.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\Mutlu'z Movie DataBase v3.6.exe=No
+
+[Package|MMDB v3.6|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|MMDB v3.6|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|MMDB v3.6|Mutlu'z Movie database]
+Icon1="Mutlu'z Capture iT.exe"
+Title1=Capture iT
+StartIn1=$(AppPath)
+Key1=Icon4
+Icon2=mmdbtooltje.exe
+Title2=MMDB Tooltje
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3="Mutlu'z Movie DataBase v3.6.exe"
+Title3=Mutlu'z Movie database v3.6
+StartIn3=$(AppPath)
+Key3=Icon1
+
+[Package|MMDB v3.6|Package]
+PackageFolder=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.6
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.6\setup.exe
+File2=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.6\Setup.Lst
+File3=c:\Documents and Settings\Maffia\Bureaublad\mmdb 3.6\Mutlu'z Movie DataBase v3.6.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|mmdb 3.8|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\mmdb 3.8
+
+[Package|mmdb 3.8|Configure DAO ISAMs]
+Applicable=No
+
+[Package|mmdb 3.8|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|mmdb 3.8|Files Found]
+
+[Package|mmdb 3.8|Files Released]
+
+[Package|mmdb 3.8|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\mmdbtooltje.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+
+[Package|mmdb 3.8|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|mmdb 3.8|Files Added]
+D:\voegfilm3\mmdbtooltje.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+
+[Package|mmdb 3.8|Files Removed]
+
+[Package|mmdb 3.8|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v3.8.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\mmdbtooltje.exe=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+
+[Package|mmdb 3.8|Configure Registry Files]
+Applicable=No
+
+[Package|mmdb 3.8|Configure Remote Servers]
+Applicable=No
+
+[Package|mmdb 3.8|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v3.8.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\mmdbtooltje.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+
+[Package|mmdb 3.8|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v3.8.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\mmdbtooltje.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+
+[Package|mmdb 3.8|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|mmdb 3.8|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|mmdb 3.8|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase v3.8.exe"
+Title1=Mutlu'z Movie database v3.8
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=mmdbtooltje.exe
+Title2=MMDB tooltje
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3="Mutlu'z Capture iT.exe"
+Title3=Mutlu'z Capture iT
+StartIn3=$(AppPath)
+Key3=Icon4
+
+[Package|mmdb 3.8|Package]
+PackageFolder=D:\mmdb 3.8
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=D:\mmdb 3.8\setup.exe
+File2=D:\mmdb 3.8\Setup.Lst
+File3=D:\mmdb 3.8\Mutlu'z Movie DataBase v3.8.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|zzz|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\zzz
+
+[Package|zzz|Configure DAO ISAMs]
+Applicable=No
+
+[Package|zzz|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|zzz|Files Found]
+
+[Package|zzz|Files Released]
+
+[Package|zzz|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\mmdbtooltje.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|zzz|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|zzz|Files Added]
+d:\voegfilm3\mmdbtooltje.exe=
+d:\voegfilm3\mutlu'z capture it.exe=
+
+[Package|zzz|Files Removed]
+
+[Package|zzz|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v3.8.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\mmdbtooltje.exe=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+
+[Package|zzz|Configure Registry Files]
+Applicable=No
+
+[Package|zzz|Configure Remote Servers]
+Applicable=No
+
+[Package|zzz|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v3.8.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\mmdbtooltje.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+
+[Package|zzz|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v3.8.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\mmdbtooltje.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+
+[Package|zzz|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|zzz|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|zzz|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase v3.8.exe"
+Title1=Mutlu'z Movie database v3.8
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=mmdbtooltje.exe
+Title2=MMDB tooltje
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3="Mutlu'z Capture iT.exe"
+Title3=Mutlu'z Capture iT
+StartIn3=$(AppPath)
+Key3=Icon4
+
+[Package|zzz|Package]
+PackageFolder=D:\zzz
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=D:\zzz\setup.exe
+File2=D:\zzz\Setup.Lst
+File3=D:\zzz\Mutlu'z Movie DataBase v3.8.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|17 juli 2002|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.5
+
+[Package|17 juli 2002|Configure DAO ISAMs]
+Applicable=No
+
+[Package|17 juli 2002|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|17 juli 2002|Files Found]
+
+[Package|17 juli 2002|Files Released]
+
+[Package|17 juli 2002|Missing Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\mmdbtooltje.exe=
+
+[Package|17 juli 2002|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|17 juli 2002|Files Added]
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\mmdbtooltje.exe=
+D:\voegfilm3\reginfo.txt=
+D:\voegfilm3\backup.mdb=
+D:\voegfilm3\mutlu.mdb=
+D:\voegfilm3\security 7 dagen\chill.dll=
+D:\voegfilm3\security 7 dagen\database.dll=
+D:\voegfilm3\security 7 dagen\finish.dll=
+D:\voegfilm3\security 7 dagen\mmdb.dll=
+D:\voegfilm3\security 7 dagen\mutlu.dll=
+D:\voegfilm3\security 7 dagen\relax.dll=
+D:\voegfilm3\security 7 dagen\startxl.dll=
+
+[Package|17 juli 2002|Files Removed]
+
+[Package|17 juli 2002|Files In Project]
+C:\Documents and Settings\Little Boss\Bureaublad\Mutlu'z Movie DataBase v4.5.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\mmdbtooltje.exe=Yes
+D:\voegfilm3\reginfo.txt=Yes
+D:\voegfilm3\backup.mdb=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+D:\voegfilm3\security 7 dagen\chill.dll=Yes
+D:\voegfilm3\security 7 dagen\database.dll=Yes
+D:\voegfilm3\security 7 dagen\finish.dll=Yes
+D:\voegfilm3\security 7 dagen\mmdb.dll=Yes
+D:\voegfilm3\security 7 dagen\mutlu.dll=Yes
+D:\voegfilm3\security 7 dagen\relax.dll=Yes
+D:\voegfilm3\security 7 dagen\startxl.dll=Yes
+
+[Package|17 juli 2002|Configure Registry Files]
+Applicable=No
+
+[Package|17 juli 2002|Configure Remote Servers]
+Applicable=No
+
+[Package|17 juli 2002|Install Locations]
+C:\Documents and Settings\Little Boss\Bureaublad\Mutlu'z Movie DataBase v4.5.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\mmdbtooltje.exe=$(AppPath)
+D:\voegfilm3\reginfo.txt=$(AppPath)
+D:\voegfilm3\backup.mdb=$(AppPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+D:\voegfilm3\security 7 dagen\chill.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\database.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\finish.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\mmdb.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\mutlu.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\relax.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\startxl.dll=$(AppPath)
+
+[Package|17 juli 2002|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Little Boss\Bureaublad\Mutlu'z Movie DataBase v4.5.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\mmdbtooltje.exe=No
+D:\voegfilm3\reginfo.txt=No
+D:\voegfilm3\backup.mdb=No
+D:\voegfilm3\mutlu.mdb=No
+D:\voegfilm3\security 7 dagen\chill.dll=No
+D:\voegfilm3\security 7 dagen\database.dll=No
+D:\voegfilm3\security 7 dagen\finish.dll=No
+D:\voegfilm3\security 7 dagen\mmdb.dll=No
+D:\voegfilm3\security 7 dagen\mutlu.dll=No
+D:\voegfilm3\security 7 dagen\relax.dll=No
+D:\voegfilm3\security 7 dagen\startxl.dll=No
+
+[Package|17 juli 2002|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|17 juli 2002|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|17 juli 2002|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase v4.5.exe"
+Title1=Mutlu'z Movie database
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=chill.dll
+Title2=
+StartIn2=$(WinPath)
+Key2=Icon4
+Icon3="Mutlu'z Capture iT.exe"
+Title3=Mutlu'z Capture iT.exe
+StartIn3=$(AppPath)
+Key3=Icon5
+Icon4=database.dll
+Title4=
+StartIn4=$(WinPath)
+Key4=Icon6
+
+[Package|17 juli 2002|Package]
+PackageFolder=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.5
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.5\setup.exe
+File2=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.5\Setup.Lst
+File3=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.5\Mutlu'z Movie DataBase v4.5.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|17 juli 2002 versie b|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.5b
+
+[Package|17 juli 2002 versie b|Configure DAO ISAMs]
+Applicable=No
+
+[Package|17 juli 2002 versie b|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|17 juli 2002 versie b|Files Found]
+
+[Package|17 juli 2002 versie b|Files Released]
+
+[Package|17 juli 2002 versie b|Missing Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\mmdbtooltje.exe=
+
+[Package|17 juli 2002 versie b|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|17 juli 2002 versie b|Files Added]
+d:\voegfilm3\mutlu'z capture it.exe=
+d:\voegfilm3\mmdbtooltje.exe=
+d:\voegfilm3\reginfo.txt=
+d:\voegfilm3\backup.mdb=
+d:\voegfilm3\mutlu.mdb=
+d:\voegfilm3\security 7 dagen\chill.dll=
+d:\voegfilm3\security 7 dagen\database.dll=
+d:\voegfilm3\security 7 dagen\finish.dll=
+d:\voegfilm3\security 7 dagen\mmdb.dll=
+d:\voegfilm3\security 7 dagen\mutlu.dll=
+d:\voegfilm3\security 7 dagen\relax.dll=
+d:\voegfilm3\security 7 dagen\startxl.dll=
+
+[Package|17 juli 2002 versie b|Files Removed]
+
+[Package|17 juli 2002 versie b|Files In Project]
+C:\Documents and Settings\Little Boss\Bureaublad\Mutlu'z Movie DataBase v4.5.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\mmdbtooltje.exe=Yes
+D:\voegfilm3\reginfo.txt=Yes
+D:\voegfilm3\backup.mdb=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+D:\voegfilm3\security 7 dagen\chill.dll=Yes
+D:\voegfilm3\security 7 dagen\database.dll=Yes
+D:\voegfilm3\security 7 dagen\finish.dll=Yes
+D:\voegfilm3\security 7 dagen\mmdb.dll=Yes
+D:\voegfilm3\security 7 dagen\mutlu.dll=Yes
+D:\voegfilm3\security 7 dagen\relax.dll=Yes
+D:\voegfilm3\security 7 dagen\startxl.dll=Yes
+
+[Package|17 juli 2002 versie b|Configure Registry Files]
+Applicable=No
+
+[Package|17 juli 2002 versie b|Configure Remote Servers]
+Applicable=No
+
+[Package|17 juli 2002 versie b|Install Locations]
+C:\Documents and Settings\Little Boss\Bureaublad\Mutlu'z Movie DataBase v4.5.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\mmdbtooltje.exe=$(AppPath)
+D:\voegfilm3\reginfo.txt=$(AppPath)
+D:\voegfilm3\backup.mdb=$(AppPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+D:\voegfilm3\security 7 dagen\chill.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\database.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\finish.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\mmdb.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\mutlu.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\relax.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\startxl.dll=$(AppPath)
+
+[Package|17 juli 2002 versie b|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Little Boss\Bureaublad\Mutlu'z Movie DataBase v4.5.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\mmdbtooltje.exe=No
+D:\voegfilm3\reginfo.txt=No
+D:\voegfilm3\backup.mdb=No
+D:\voegfilm3\mutlu.mdb=No
+D:\voegfilm3\security 7 dagen\chill.dll=No
+D:\voegfilm3\security 7 dagen\database.dll=No
+D:\voegfilm3\security 7 dagen\finish.dll=No
+D:\voegfilm3\security 7 dagen\mmdb.dll=No
+D:\voegfilm3\security 7 dagen\mutlu.dll=No
+D:\voegfilm3\security 7 dagen\relax.dll=No
+D:\voegfilm3\security 7 dagen\startxl.dll=No
+
+[Package|17 juli 2002 versie b|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|17 juli 2002 versie b|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|17 juli 2002 versie b|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase v4.5.exe"
+Title1=Mutlu'z Movie database
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=mmdbtooltje.exe
+Title2=MMDB tool
+StartIn2=$(AppPath)
+Key2=Icon6
+Icon3="Mutlu'z Capture iT.exe"
+Title3=Mutlu'z Capture iT
+StartIn3=$(AppPath)
+Key3=Icon5
+
+[Package|17 juli 2002 versie b|Package]
+PackageFolder=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.5b
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.5b\setup.exe
+File2=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.5b\Setup.Lst
+File3=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.5b\Mutlu'z Movie DataBase v4.5.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|4 augustus|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.9
+
+[Package|4 augustus|Configure DAO ISAMs]
+Applicable=No
+
+[Package|4 augustus|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|4 augustus|Files Found]
+
+[Package|4 augustus|Files Released]
+
+[Package|4 augustus|Missing Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\mmdbtooltje.exe=
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=
+
+[Package|4 augustus|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|4 augustus|Files Added]
+d:\voegfilm3\mutlu'z capture it.exe=
+d:\voegfilm3\mmdbtooltje.exe=
+d:\voegfilm3\reginfo.txt=
+d:\voegfilm3\backup.mdb=
+d:\voegfilm3\mutlu.mdb=
+d:\voegfilm3\security 7 dagen\chill.dll=
+d:\voegfilm3\security 7 dagen\database.dll=
+d:\voegfilm3\security 7 dagen\finish.dll=
+d:\voegfilm3\security 7 dagen\mmdb.dll=
+d:\voegfilm3\security 7 dagen\mutlu.dll=
+d:\voegfilm3\security 7 dagen\relax.dll=
+d:\voegfilm3\security 7 dagen\startxl.dll=
+
+[Package|4 augustus|Files Removed]
+d:\voegfilm3\security 7 dagen\chill.dll=
+d:\voegfilm3\security 7 dagen\database.dll=
+d:\voegfilm3\security 7 dagen\finish.dll=
+d:\voegfilm3\security 7 dagen\mmdb.dll=
+d:\voegfilm3\security 7 dagen\mutlu.dll=
+d:\voegfilm3\security 7 dagen\relax.dll=
+d:\voegfilm3\security 7 dagen\startxl.dll=
+c:\program files\common files\system\ado\msado20.tlb=
+
+[Package|4 augustus|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=No
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\mmdbtooltje.exe=Yes
+D:\voegfilm3\reginfo.txt=Yes
+D:\voegfilm3\backup.mdb=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+D:\voegfilm3\security 7 dagen\chill.dll=No
+D:\voegfilm3\security 7 dagen\database.dll=No
+D:\voegfilm3\security 7 dagen\finish.dll=No
+D:\voegfilm3\security 7 dagen\mmdb.dll=No
+D:\voegfilm3\security 7 dagen\mutlu.dll=No
+D:\voegfilm3\security 7 dagen\relax.dll=No
+D:\voegfilm3\security 7 dagen\startxl.dll=No
+D:\voegfilm3\Mutlu'z Movie DataBase v4.9.exe=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+
+[Package|4 augustus|Configure Registry Files]
+Applicable=No
+
+[Package|4 augustus|Configure Remote Servers]
+Applicable=No
+
+[Package|4 augustus|Install Locations]
+C:\Documents and Settings\Little Boss\Bureaublad\Mutlu'z Movie DataBase v4.5.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\mmdbtooltje.exe=$(AppPath)
+D:\voegfilm3\reginfo.txt=$(AppPath)
+D:\voegfilm3\backup.mdb=$(AppPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+D:\voegfilm3\security 7 dagen\chill.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\database.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\finish.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\mmdb.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\mutlu.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\relax.dll=$(AppPath)
+D:\voegfilm3\security 7 dagen\startxl.dll=$(AppPath)
+D:\voegfilm3\Mutlu'z Movie DataBase v4.9.exe=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+
+[Package|4 augustus|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Little Boss\Bureaublad\Mutlu'z Movie DataBase v4.5.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\mmdbtooltje.exe=No
+D:\voegfilm3\reginfo.txt=No
+D:\voegfilm3\backup.mdb=No
+D:\voegfilm3\mutlu.mdb=No
+D:\voegfilm3\security 7 dagen\chill.dll=No
+D:\voegfilm3\security 7 dagen\database.dll=No
+D:\voegfilm3\security 7 dagen\finish.dll=No
+D:\voegfilm3\security 7 dagen\mmdb.dll=No
+D:\voegfilm3\security 7 dagen\mutlu.dll=No
+D:\voegfilm3\security 7 dagen\relax.dll=No
+D:\voegfilm3\security 7 dagen\startxl.dll=No
+D:\voegfilm3\Mutlu'z Movie DataBase v4.9.exe=No
+
+[Package|4 augustus|Distribution]
+Type=single
+Size=720 KB
+Title=Mutlu'z Movie database
+
+[Package|4 augustus|Package]
+PackageFolder=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.9
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.9\setup.exe
+File2=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.9\Setup.Lst
+File3=c:\Documents and Settings\All Users\Bureaublad\MMDB 4.9\Mutlu'z Movie DataBase v4.9.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|4 augustus|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|4 augustus|Mutlu'z Movie database]
+Icon1=mmdbtooltje.exe
+Title1=MMDB tool
+StartIn1=$(AppPath)
+Key1=Icon6
+Icon2="Mutlu'z Capture iT.exe"
+Title2=Mutlu'z Capture iT
+StartIn2=$(AppPath)
+Key2=Icon5
+Icon3="Mutlu'z Movie DataBase v4.9.exe"
+Title3=Mutlu'z Movie database v4.9
+StartIn3=$(AppPath)
+Key3=Icon1
+
+
+[Package|9 augustus|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\gangster\Bureaublad\MMDB 1.0
+
+[Package|9 augustus|Configure DAO ISAMs]
+Applicable=No
+
+[Package|9 augustus|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|9 augustus|Files Found]
+
+[Package|9 augustus|Files Released]
+
+[Package|9 augustus|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\dao360.dll=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+D:\voegfilm3\mmdbtooltje.exe=
+
+[Package|9 augustus|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|9 augustus|Files Added]
+d:\voegfilm3\mutlu'z capture it.exe=
+d:\voegfilm3\mmdbtooltje.exe=
+d:\voegfilm3\mutlu.mdb=
+d:\voegfilm3\backup.mdb=
+d:\voegfilm3\reginfo.txt=
+d:\voegfilm3\desktop.bmp=
+d:\voegfilm3\check.bat=
+d:\voegfilm3\kill.bat=
+d:\voegfilm3\renamehtml.bat=
+d:\voegfilm3\first.bat=
+
+[Package|9 augustus|Files Removed]
+c:\program files\common files\system\ado\msado20.tlb=
+d:\voegfilm3\mutlu'z capture it.exe=
+
+[Package|9 augustus|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.0.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=No
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\mmdbtooltje.exe=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+D:\voegfilm3\backup.mdb=Yes
+D:\voegfilm3\reginfo.txt=Yes
+D:\voegfilm3\DESKTOP.bmp=Yes
+D:\voegfilm3\check.bat=Yes
+D:\voegfilm3\kill.bat=Yes
+D:\voegfilm3\renamehtml.bat=Yes
+D:\voegfilm3\first.bat=Yes
+
+[Package|9 augustus|Configure Registry Files]
+Applicable=No
+
+[Package|9 augustus|Configure Remote Servers]
+Applicable=No
+
+[Package|9 augustus|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.0.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\mmdbtooltje.exe=$(AppPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+D:\voegfilm3\backup.mdb=$(AppPath)
+D:\voegfilm3\reginfo.txt=$(AppPath)
+D:\voegfilm3\DESKTOP.bmp=$(AppPath)
+D:\voegfilm3\check.bat=$(AppPath)
+D:\voegfilm3\kill.bat=$(AppPath)
+D:\voegfilm3\renamehtml.bat=$(AppPath)
+D:\voegfilm3\first.bat=$(AppPath)
+
+[Package|9 augustus|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v1.0.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\mmdbtooltje.exe=No
+D:\voegfilm3\mutlu.mdb=No
+D:\voegfilm3\backup.mdb=No
+D:\voegfilm3\reginfo.txt=No
+D:\voegfilm3\DESKTOP.bmp=No
+D:\voegfilm3\check.bat=No
+D:\voegfilm3\kill.bat=No
+D:\voegfilm3\renamehtml.bat=No
+D:\voegfilm3\first.bat=No
+
+[Package|9 augustus|Distribution]
+Type=single
+Size=2.88 MB
+Title=Mutlu'z Movie database
+
+[Package|9 augustus|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|9 augustus|Mutlu'z Movie database]
+Icon1=mmdbtooltje.exe
+Title1=MMDB Tooltje
+StartIn1=$(AppPath)
+Key1=Icon4
+Icon2="Mutlu'z Movie DataBase v1.0.exe"
+Title2=Mutlu'z Movie database v1.0
+StartIn2=$(AppPath)
+Key2=Icon1
+
+[Package|9 augustus|Package]
+PackageFolder=c:\Documents and Settings\gangster\Bureaublad\MMDB 1.0
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\gangster\Bureaublad\MMDB 1.0\setup.exe
+File2=c:\Documents and Settings\gangster\Bureaublad\MMDB 1.0\Setup.Lst
+File3=c:\Documents and Settings\gangster\Bureaublad\MMDB 1.0\Mutlu'z Movie DataBase v1.0.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|november|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\maffia\Bureaublad\mmdb3
+
+[Package|november|Configure DAO ISAMs]
+Applicable=No
+
+[Package|november|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|november|Files Found]
+
+[Package|november|Files Released]
+
+[Package|november|Missing Dependency Information]
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=
+C:\WINDOWS\SYSTEM32\msdxm.ocx=
+C:\WINDOWS\SYSTEM32\dao360.dll=
+D:\voegfilm3\mmdbtooltje.exe=
+D:\voegfilm3\Mutlu'z Capture iT.exe=
+
+[Package|november|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+
+[Package|november|Files Added]
+d:\voegfilm3\mmdbtooltje.exe=
+d:\voegfilm3\mutlu'z capture it.exe=
+D:\voegfilm3\mutlu.mdb=
+
+[Package|november|Files Removed]
+c:\program files\common files\system\ado\msado20.tlb=
+
+[Package|november|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.0.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\dao360.dll=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM32\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=No
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\mmdbtooltje.exe=Yes
+D:\voegfilm3\Mutlu'z Capture iT.exe=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+
+[Package|november|Configure Registry Files]
+Applicable=No
+
+[Package|november|Configure Remote Servers]
+Applicable=No
+
+[Package|november|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.0.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\mmdbtooltje.exe=$(AppPath)
+D:\voegfilm3\Mutlu'z Capture iT.exe=$(AppPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+
+[Package|november|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v1.0.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\mmdbtooltje.exe=No
+D:\voegfilm3\Mutlu'z Capture iT.exe=No
+D:\voegfilm3\mutlu.mdb=No
+
+[Package|november|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|november|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|november|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase v1.0.exe"
+Title1=Mutlu'z Movie database
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=mmdbtooltje.exe
+Title2=MMDB tooltje
+StartIn2=$(AppPath)
+Key2=Icon2
+Icon3="Mutlu'z Capture iT.exe"
+Title3=Mutlu'z Capture iT
+StartIn3=$(AppPath)
+Key3=Icon3
+
+[Package|november|Package]
+PackageFolder=c:\Documents and Settings\maffia\Bureaublad\mmdb3
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\maffia\Bureaublad\mmdb3\setup.exe
+File2=c:\Documents and Settings\maffia\Bureaublad\mmdb3\Setup.Lst
+File3=c:\Documents and Settings\maffia\Bureaublad\mmdb3\Mutlu'z Movie DataBase v1.0.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|december1.1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\maffia\Bureaublad\mmdb1.1
+
+[Package|december1.1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|december1.1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|december1.1|Files Found]
+
+[Package|december1.1|Files Released]
+
+[Package|december1.1|Missing Dependency Information]
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=
+C:\WINDOWS\SYSTEM32\msdxm.ocx=
+C:\WINDOWS\SYSTEM32\dao360.dll=
+D:\mmdb prog\Mutlu'z Capture iT.exe=
+D:\mmdb prog\mmdbtooltje.exe=
+D:\mmdb prog\MMDB filmnaamdatabase.exe=
+D:\mmdb prog\MMDB acteurdatabase.exe=
+D:\mmdb prog\MMDB klantendatabase.exe=
+
+[Package|december1.1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+
+[Package|december1.1|Files Added]
+D:\voegfilm3\mutlu.mdb=
+D:\voegfilm3\backup.mdb=
+D:\mmdb prog\acteurs.mdb=
+D:\mmdb prog\filmnaam.mdb=
+D:\mmdb prog\lege\vrienden.mdb=
+D:\mmdb prog\Mutlu'z Capture iT.exe=
+D:\mmdb prog\mmdbtooltje.exe=
+D:\mmdb prog\MMDB filmnaamdatabase.exe=
+D:\mmdb prog\MMDB acteurdatabase.exe=
+D:\mmdb prog\MMDB klantendatabase.exe=
+
+[Package|december1.1|Files Removed]
+c:\program files\common files\system\ado\msado20.tlb=
+
+[Package|december1.1|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.1.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\dao360.dll=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM32\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=No
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+D:\voegfilm3\backup.mdb=Yes
+D:\mmdb prog\acteurs.mdb=Yes
+D:\mmdb prog\filmnaam.mdb=Yes
+D:\mmdb prog\lege\vrienden.mdb=Yes
+D:\mmdb prog\Mutlu'z Capture iT.exe=Yes
+D:\mmdb prog\mmdbtooltje.exe=Yes
+D:\mmdb prog\MMDB filmnaamdatabase.exe=Yes
+D:\mmdb prog\MMDB acteurdatabase.exe=Yes
+D:\mmdb prog\MMDB klantendatabase.exe=Yes
+
+[Package|december1.1|Configure Registry Files]
+Applicable=No
+
+[Package|december1.1|Configure Remote Servers]
+Applicable=No
+
+[Package|december1.1|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.1.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+D:\voegfilm3\backup.mdb=$(AppPath)
+D:\mmdb prog\acteurs.mdb=$(AppPath)
+D:\mmdb prog\filmnaam.mdb=$(AppPath)
+D:\mmdb prog\lege\vrienden.mdb=$(AppPath)
+D:\mmdb prog\Mutlu'z Capture iT.exe=$(AppPath)
+D:\mmdb prog\mmdbtooltje.exe=$(AppPath)
+D:\mmdb prog\MMDB filmnaamdatabase.exe=$(AppPath)
+D:\mmdb prog\MMDB acteurdatabase.exe=$(AppPath)
+D:\mmdb prog\MMDB klantendatabase.exe=$(AppPath)
+
+[Package|december1.1|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v1.1.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\mutlu.mdb=No
+D:\voegfilm3\backup.mdb=No
+D:\mmdb prog\acteurs.mdb=No
+D:\mmdb prog\filmnaam.mdb=No
+D:\mmdb prog\lege\vrienden.mdb=No
+D:\mmdb prog\Mutlu'z Capture iT.exe=No
+D:\mmdb prog\mmdbtooltje.exe=No
+D:\mmdb prog\MMDB filmnaamdatabase.exe=No
+D:\mmdb prog\MMDB acteurdatabase.exe=No
+D:\mmdb prog\MMDB klantendatabase.exe=No
+
+[Package|december1.1|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|december1.1|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|december1.1|Mutlu'z Movie database]
+Icon1=mmdbtooltje.exe
+Title1=mmdbtooltje
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2="Mutlu'z Capture iT.exe"
+Title2=Mutlu'z Capture iT
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3="MMDB filmnaamdatabase.exe"
+Title3=MMDB filmnaamdatabase
+StartIn3=$(AppPath)
+Key3=Icon5
+Icon4="MMDB acteurdatabase.exe"
+Title4=MMDB acteurdatabase
+StartIn4=$(AppPath)
+Key4=Icon6
+Icon5="MMDB klantendatabase.exe"
+Title5=MMDB klantendatabase
+StartIn5=$(AppPath)
+Key5=Icon7
+Icon6="Mutlu'z Movie DataBase v1.1.exe"
+Title6=Mutlu'z Movie database
+StartIn6=$(AppPath)
+Key6=Icon1
+
+[Package|december1.1|Package]
+PackageFolder=c:\Documents and Settings\maffia\Bureaublad\mmdb1.1
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\maffia\Bureaublad\mmdb1.1\setup.exe
+File2=c:\Documents and Settings\maffia\Bureaublad\mmdb1.1\Setup.Lst
+File3=c:\Documents and Settings\maffia\Bureaublad\mmdb1.1\Mutlu'z Movie DataBase v1.1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|december1.1a|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\maffia\Bureaublad\mmdb1.1x
+
+[Package|december1.1a|Configure DAO ISAMs]
+Applicable=No
+
+[Package|december1.1a|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|december1.1a|Files Found]
+
+[Package|december1.1a|Files Released]
+
+[Package|december1.1a|Missing Dependency Information]
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=
+C:\WINDOWS\SYSTEM32\msdxm.ocx=
+C:\WINDOWS\SYSTEM32\dao360.dll=
+D:\mmdb prog\Mutlu'z Capture iT.exe=
+D:\mmdb prog\mmdbtooltje.exe=
+D:\mmdb prog\MMDB filmnaamdatabase.exe=
+D:\mmdb prog\MMDB acteurdatabase.exe=
+D:\mmdb prog\MMDB klantendatabase.exe=
+
+[Package|december1.1a|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+
+[Package|december1.1a|Files Added]
+d:\voegfilm3\mutlu.mdb=
+d:\voegfilm3\backup.mdb=
+d:\mmdb prog\acteurs.mdb=
+d:\mmdb prog\filmnaam.mdb=
+d:\mmdb prog\lege\vrienden.mdb=
+d:\mmdb prog\mutlu'z capture it.exe=
+d:\mmdb prog\mmdbtooltje.exe=
+d:\mmdb prog\mmdb filmnaamdatabase.exe=
+d:\mmdb prog\mmdb acteurdatabase.exe=
+d:\mmdb prog\mmdb klantendatabase.exe=
+
+[Package|december1.1a|Files Removed]
+c:\program files\common files\system\ado\msado20.tlb=
+
+[Package|december1.1a|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.1.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\dao360.dll=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM32\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=No
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\voegfilm3\mutlu.mdb=Yes
+D:\voegfilm3\backup.mdb=Yes
+D:\mmdb prog\acteurs.mdb=Yes
+D:\mmdb prog\filmnaam.mdb=Yes
+D:\mmdb prog\lege\vrienden.mdb=Yes
+D:\mmdb prog\Mutlu'z Capture iT.exe=Yes
+D:\mmdb prog\mmdbtooltje.exe=Yes
+D:\mmdb prog\MMDB filmnaamdatabase.exe=Yes
+D:\mmdb prog\MMDB acteurdatabase.exe=Yes
+D:\mmdb prog\MMDB klantendatabase.exe=Yes
+
+[Package|december1.1a|Configure Registry Files]
+Applicable=No
+
+[Package|december1.1a|Configure Remote Servers]
+Applicable=No
+
+[Package|december1.1a|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.1.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\voegfilm3\mutlu.mdb=$(AppPath)
+D:\voegfilm3\backup.mdb=$(AppPath)
+D:\mmdb prog\acteurs.mdb=$(AppPath)
+D:\mmdb prog\filmnaam.mdb=$(AppPath)
+D:\mmdb prog\lege\vrienden.mdb=$(AppPath)
+D:\mmdb prog\Mutlu'z Capture iT.exe=$(AppPath)
+D:\mmdb prog\mmdbtooltje.exe=$(AppPath)
+D:\mmdb prog\MMDB filmnaamdatabase.exe=$(AppPath)
+D:\mmdb prog\MMDB acteurdatabase.exe=$(AppPath)
+D:\mmdb prog\MMDB klantendatabase.exe=$(AppPath)
+
+[Package|december1.1a|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v1.1.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\voegfilm3\mutlu.mdb=No
+D:\voegfilm3\backup.mdb=No
+D:\mmdb prog\acteurs.mdb=No
+D:\mmdb prog\filmnaam.mdb=No
+D:\mmdb prog\lege\vrienden.mdb=No
+D:\mmdb prog\Mutlu'z Capture iT.exe=No
+D:\mmdb prog\mmdbtooltje.exe=No
+D:\mmdb prog\MMDB filmnaamdatabase.exe=No
+D:\mmdb prog\MMDB acteurdatabase.exe=No
+D:\mmdb prog\MMDB klantendatabase.exe=No
+
+[Package|december1.1a|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|december1.1a|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|december1.1a|Mutlu'z Movie database]
+Icon1=mmdbtooltje.exe
+Title1=mmdbtooltje
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2="Mutlu'z Capture iT.exe"
+Title2=Mutlu'z Capture iT
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3="MMDB filmnaamdatabase.exe"
+Title3=MMDB filmnaamdatabase
+StartIn3=$(AppPath)
+Key3=Icon5
+Icon4="MMDB acteurdatabase.exe"
+Title4=MMDB acteurdatabase
+StartIn4=$(AppPath)
+Key4=Icon6
+Icon5="MMDB klantendatabase.exe"
+Title5=MMDB klantendatabase
+StartIn5=$(AppPath)
+Key5=Icon7
+Icon6="Mutlu'z Movie DataBase v1.1.exe"
+Title6=Mutlu'z Movie database
+StartIn6=$(AppPath)
+Key6=Icon1
+
+[Package|december1.1a|Package]
+PackageFolder=c:\Documents and Settings\maffia\Bureaublad\mmdb1.1x
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\maffia\Bureaublad\mmdb1.1x\setup.exe
+File2=c:\Documents and Settings\maffia\Bureaublad\mmdb1.1x\Setup.Lst
+File3=c:\Documents and Settings\maffia\Bureaublad\mmdb1.1x\Mutlu'z Movie DataBase v1.1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|2003 12  januari|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\maffia\Bureaublad\mmdb
+
+[Package|2003 12  januari|Configure DAO ISAMs]
+Applicable=No
+
+[Package|2003 12  januari|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|2003 12  januari|Files Found]
+
+[Package|2003 12  januari|Files Released]
+
+[Package|2003 12  januari|Missing Dependency Information]
+D:\mmdb prog\install mmdb 1.4\install files\MMDB acteurdatabase.exe=
+D:\mmdb prog\install mmdb 1.4\install files\MMDB filmnaamdatabase.exe=
+D:\mmdb prog\install mmdb 1.4\install files\MMDB klantendatabase.exe=
+D:\mmdb prog\install mmdb 1.4\install files\mmdbtooltje.exe=
+D:\mmdb prog\install mmdb 1.4\install files\Mutlu'z Capture iT.exe=
+
+[Package|2003 12  januari|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+
+[Package|2003 12  januari|Files Added]
+D:\mmdb prog\install mmdb 1.4\install files\MMDB acteurdatabase.exe=
+D:\mmdb prog\install mmdb 1.4\install files\MMDB filmnaamdatabase.exe=
+D:\mmdb prog\install mmdb 1.4\install files\MMDB klantendatabase.exe=
+D:\mmdb prog\install mmdb 1.4\install files\mmdbtooltje.exe=
+D:\mmdb prog\install mmdb 1.4\install files\Mutlu'z Capture iT.exe=
+D:\mmdb prog\install mmdb 1.4\install files\acteurs.mdb=
+D:\mmdb prog\install mmdb 1.4\install files\backup.mdb=
+D:\mmdb prog\install mmdb 1.4\install files\banderas.jpg=
+D:\mmdb prog\install mmdb 1.4\install files\black.jpg=
+D:\mmdb prog\install mmdb 1.4\install files\filmnaam.mdb=
+D:\mmdb prog\install mmdb 1.4\install files\lens.jpg=
+D:\mmdb prog\install mmdb 1.4\install files\mutlu.mdb=
+D:\mmdb prog\install mmdb 1.4\install files\reginfo.txt=
+D:\mmdb prog\install mmdb 1.4\install files\vrienden.mdb=
+
+[Package|2003 12  januari|Files Removed]
+c:\program files\common files\system\ado\msado20.tlb=
+
+[Package|2003 12  januari|Files In Project]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.1.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\dao360.dll=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM32\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=No
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\mmdb prog\install mmdb 1.4\install files\MMDB acteurdatabase.exe=Yes
+D:\mmdb prog\install mmdb 1.4\install files\MMDB filmnaamdatabase.exe=Yes
+D:\mmdb prog\install mmdb 1.4\install files\MMDB klantendatabase.exe=Yes
+D:\mmdb prog\install mmdb 1.4\install files\mmdbtooltje.exe=Yes
+D:\mmdb prog\install mmdb 1.4\install files\Mutlu'z Capture iT.exe=Yes
+D:\mmdb prog\install mmdb 1.4\install files\acteurs.mdb=Yes
+D:\mmdb prog\install mmdb 1.4\install files\backup.mdb=Yes
+D:\mmdb prog\install mmdb 1.4\install files\banderas.jpg=Yes
+D:\mmdb prog\install mmdb 1.4\install files\black.jpg=Yes
+D:\mmdb prog\install mmdb 1.4\install files\filmnaam.mdb=Yes
+D:\mmdb prog\install mmdb 1.4\install files\lens.jpg=Yes
+D:\mmdb prog\install mmdb 1.4\install files\mutlu.mdb=Yes
+D:\mmdb prog\install mmdb 1.4\install files\reginfo.txt=Yes
+D:\mmdb prog\install mmdb 1.4\install files\vrienden.mdb=Yes
+
+[Package|2003 12  januari|Configure Registry Files]
+Applicable=No
+
+[Package|2003 12  januari|Configure Remote Servers]
+Applicable=No
+
+[Package|2003 12  januari|Install Locations]
+D:\voegfilm3\Mutlu'z Movie DataBase v1.1.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\mmdb prog\install mmdb 1.4\install files\MMDB acteurdatabase.exe=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\MMDB filmnaamdatabase.exe=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\MMDB klantendatabase.exe=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\mmdbtooltje.exe=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\Mutlu'z Capture iT.exe=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\acteurs.mdb=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\backup.mdb=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\banderas.jpg=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\black.jpg=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\filmnaam.mdb=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\lens.jpg=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\mutlu.mdb=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\reginfo.txt=$(AppPath)
+D:\mmdb prog\install mmdb 1.4\install files\vrienden.mdb=$(AppPath)
+
+[Package|2003 12  januari|Configure Shared Files]
+Applicable=Yes
+D:\voegfilm3\Mutlu'z Movie DataBase v1.1.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\mmdb prog\install mmdb 1.4\install files\MMDB acteurdatabase.exe=No
+D:\mmdb prog\install mmdb 1.4\install files\MMDB filmnaamdatabase.exe=No
+D:\mmdb prog\install mmdb 1.4\install files\MMDB klantendatabase.exe=No
+D:\mmdb prog\install mmdb 1.4\install files\mmdbtooltje.exe=No
+D:\mmdb prog\install mmdb 1.4\install files\Mutlu'z Capture iT.exe=No
+D:\mmdb prog\install mmdb 1.4\install files\acteurs.mdb=No
+D:\mmdb prog\install mmdb 1.4\install files\backup.mdb=No
+D:\mmdb prog\install mmdb 1.4\install files\banderas.jpg=No
+D:\mmdb prog\install mmdb 1.4\install files\black.jpg=No
+D:\mmdb prog\install mmdb 1.4\install files\filmnaam.mdb=No
+D:\mmdb prog\install mmdb 1.4\install files\lens.jpg=No
+D:\mmdb prog\install mmdb 1.4\install files\mutlu.mdb=No
+D:\mmdb prog\install mmdb 1.4\install files\reginfo.txt=No
+D:\mmdb prog\install mmdb 1.4\install files\vrienden.mdb=No
+
+[Package|2003 12  januari|Distribution]
+Type=single
+Size=
+Title=Mutlu'z Movie database
+
+[Package|2003 12  januari|IconGroups]
+Group0=Mutlu'z Movie database
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|2003 12  januari|Mutlu'z Movie database]
+Icon1="Mutlu'z Movie DataBase v1.1.exe"
+Title1=Mutlu'z Movie database
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2="Mutlu'z Capture iT.exe"
+Title2=Mutlu'z Capture iT
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3=mmdbtooltje.exe
+Title3=MMDB database tool
+StartIn3=$(AppPath)
+Key3=Icon4
+Icon4="MMDB acteurdatabase.exe"
+Title4=MMDB acteurdatabase
+StartIn4=$(AppPath)
+Key4=Icon5
+Icon5="MMDB filmnaamdatabase.exe"
+Title5=MMDB filmnaamdatabase
+StartIn5=$(AppPath)
+Key5=Icon6
+Icon6="MMDB klantendatabase.exe"
+Title6=MMDB klantendatabase
+StartIn6=$(AppPath)
+Key6=Icon7
+Icon7=reginfo.txt
+Title7=Readme
+StartIn7=$(AppPath)
+Key7=Icon8
+
+[Package|2003 12  januari|Package]
+PackageFolder=c:\Documents and Settings\maffia\Bureaublad\mmdb
+ProjectFolder=D:\voegfilm3
+ServerSideCab=
+File1=c:\Documents and Settings\maffia\Bureaublad\mmdb\setup.exe
+File2=c:\Documents and Settings\maffia\Bureaublad\mmdb\Setup.Lst
+File3=c:\Documents and Settings\maffia\Bureaublad\mmdb\Mutlu'z Movie DataBase v1.1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
