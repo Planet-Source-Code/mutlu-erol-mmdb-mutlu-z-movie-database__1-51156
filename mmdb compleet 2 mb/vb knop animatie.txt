@@ -1,0 +1,4 @@
+Private Sub Image1_MouseMove(Button As Integer, Shift As Integer, X As Single, y As Single)
+Image2.Visible = True
+End Sub
+
